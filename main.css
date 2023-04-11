@@ -1,0 +1,92 @@
+/* :root {
+  --direction: -45deg; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+}
+
+#background {
+  background-image: url(https://images.pexels.com/photos/1133505/pexels-photo-1133505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#foreground {
+  background-image: url(https://images.pexels.com/photos/1463530/pexels-photo-1463530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  mask-image: linear-gradient(rgba(0,0,0,1) 40%, rgba(0,0,0,0) 60%);
+  mask-position: 50% 50%;
+  animation: rotateAnimation 5s infinite linear;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(var(--direction));
+  }
+  100% {
+    transform: rotate(calc(var(--direction) + 360deg));
+  }
+} */
+  
+.card{
+    height: 450px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+   
+    
+}
+
+
+#location{
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background-color: lightgray;
+    margin-bottom: 10px ;
+
+}
+
+#submit-button{
+    border-radius: 8px;
+    background-color: lightgrey;
+}
+
+.head{
+    text-align: center;
+        
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+
+  .content {
+    margin-left: 750px;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+    padding: 20px;
+  }
+
+  
