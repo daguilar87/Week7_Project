@@ -9,7 +9,7 @@
 
 
 const getData = async (city,state) => {
-    let response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city},${state}&appid=8a19ce3a9942bc80349edab0f697bea0&units=imperial`);
+    let response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city},${state}&appid=69fea4a4688d79a3c874ea7b986dcb4e&units=imperial`);
 
     if (response.status == 200) {
         console.log(response.data.weather[0].main); {
